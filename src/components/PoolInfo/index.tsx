@@ -222,6 +222,7 @@ export default function PoolInfo(props: AddressParam) {
   const [pool, setPool] = useState<Contract>();
   const {chainId} = useActiveWeb3React();
   const guniPool = useGUniPoolContract(props.address);
+  
   useEffect(() => {
     const getPoolInfo = async () => {
       if (guniPool) {

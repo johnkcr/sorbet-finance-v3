@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 //import styled from "styled-components";
-import {useParams} from "react-router-dom";
-import {PoolDetails, PoolParams, PoolTokens, fetchPoolDetails, formatBigNumber} from '../../components/PoolInfo';
+import { useParams} from "react-router-dom";
+import { PoolDetails, PoolParams, PoolTokens, fetchPoolDetails, formatBigNumber } from '../../components/PoolInfo';
 import {
   useTokenContract,
   useGUniPoolContract,
@@ -14,7 +14,7 @@ import TransactionConfirmationModal from 'components/TransactionConfirmationModa
 //import useUSDCPrice from 'hooks/useUSDCPrice'
 //import { useTranslation } from 'react-i18next'
 import { Area, Button, MarginLeft, Column, Row, Back, MAX_UINT, Input } from '../AddLiquidity'
-import {Box, Title} from 'pages/Pools'
+import { Box, Title } from 'pages/Pools/Pools.styled'
 import Modal from 'components/Modal'
 import '../AddLiquidity/toggle.css';
 import { ethers } from 'ethers';

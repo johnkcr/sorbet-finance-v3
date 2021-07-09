@@ -22,7 +22,7 @@ import './toggle.css'
 import { ethers } from 'ethers'
 import { useUSDCValue } from 'hooks/useUSDCPrice'
 import Modal from 'components/Modal'
-import {Box, Title} from 'pages/Pools'
+import {Box, Title} from 'pages/Pools/Pools.styled'
 
 export const Area = styled.div`
   display: flex;
